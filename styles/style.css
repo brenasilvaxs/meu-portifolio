@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@601&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    /* overflow: hidden;  Remove tanto a rolagem horizontal quanto a vertical */
+} 
+
+:root { /* Variavel Global */
+    --cor-primaria: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-tercearia: #22D4FD;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+
+}
+
+.cabecalho {
+    padding: 4% 0% 0% 6%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 5% 8%;
+    display: flex; /* Coloca os itens um ao lado do outro */
+    align-items: center;  /* Coloca os itens no meio do contêiner (de cima para baixo) */
+    justify-content: space-between;
+
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column; /* Flexbox */
+    gap: 10px; /*  especifica o tamanho dos espaços entre linhas e colunas */
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 30px; /* Define o tamanho da fonte da classe selecionada */
+    font-family: "Krona One"; /* Coloca a fonte importada de acordo com a classe */
+    white-space: nowrap;  /* Faz com que o texto dentro do elemento não quebre automaticamente para uma nova linha, mesmo se o conteúdo ultrapassar a largura do contêiner. */
+    margin-bottom: 20px; /* Adiciona um espaço de N pixels abaixo do h1, separando-o do parágrafo que vem em seguida. */
+    margin-left: -20px;
+}
+
+.apresentacao__conteudo__titulo_experiencia {
+    font-size: 30px; /* Define o tamanho da fonte da classe selecionada */
+    font-family: "Krona One"; /* Coloca a fonte importada de acordo com a classe */
+    white-space: nowrap;  /* Faz com que o texto dentro do elemento não quebre automaticamente para uma nova linha, mesmo se o conteúdo ultrapassar a largura do contêiner. */
+    margin-bottom: 20px; /* Adiciona um espaço de N pixels abaixo do h1, separando-o do parágrafo que vem em seguida. */
+    margin-left: -20px;
+    margin-top: 30px;
+}
+
+.apresentacao__conteudo__titulo_cursos {
+    font-size: 30px; /* Define o tamanho da fonte da classe selecionada */
+    font-family: "Krona One"; /* Coloca a fonte importada de acordo com a classe */
+    white-space: nowrap;  /* Faz com que o texto dentro do elemento não quebre automaticamente para uma nova linha, mesmo se o conteúdo ultrapassar a largura do contêiner. */
+    margin-bottom: 20px; /* Adiciona um espaço de N pixels abaixo do h1, separando-o do parágrafo que vem em seguida. */
+    margin-left: -20px;
+    margin-top: 30px;
+}
+
+
+.apresentacao__conteudo__texto {
+    font-size: 19px;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    max-width: 650px; /* Limita o comprimento da frase na página */
+    margin-left: -20px;
+}
+
+.apresentacao__redessociais {
+    display: flex; /* ??? */
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-evenly; /* FlexBox */
+    margin-top: 20px; /* Adiciona um espaçamento */
+    margin-left: -72px;
+}
+
+.apresentacao__redessociais__subtitulo {
+    font-family: 'Krona One' , sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: black; /*  Adiciona cores de fundo aos botões */
+    width: 250px; /* Define o tamanho do botão */
+    text-align: center; /* Coloca o texto no centro */
+    border-radius: 15px; /* Arrendoda os cantos do botão */
+    border: 1px solid #22D4FD;
+    font-size: 25px;
+    font-weight: 600; /* Peso da fonte */
+    padding: 11px 0;
+    text-decoration: none; /* Tira a linha a baixo do link */
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links:hover {
+    background-color: #272727; /* Define a cor do botão ao passar o mouse por cima */
+    padding: 2%;  /* Aumenta o botão ao passar o mouse por cima */ 
+}
+
+.rodape {
+    color: #000000;
+    background-color: #20b3d4;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+    font-size: 18px;
+    
+}
+
+.imagem-brena {
+    width: 300px; /* Ajuste a largura desejada */
+    height: auto; /* Isso mantém a proporção da imagem */
+    max-width: 100%; /* Isso garante que a imagem não exceda a largura do contêiner */
+    border-radius: 20%;
+    border: 3px solid #22D4FD;
+}
+
+
+/* span{ 
+    color: #22D4FD;
+    /* border: 1px solid #22D4FD; Cria uma borda com 1px de largura do tipo sólida na cor mencionada */
+/* Cria um espaçamento interno de 10px */
